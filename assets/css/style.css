@@ -37,6 +37,8 @@
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
   --jet: hsl(0, 0%, 20%);
+  --gold: hsl(43, 100%, 65%);
+  --dark-gold: hsl(39, 86%, 61%);
 
   /**
    * gradient color
@@ -267,7 +269,7 @@ body {
 }
 
 .logo {
-  color: var(--oxford-blue-1);
+  color: var(--gold);
   font-family: var(--ff-poppins);
   font-size: 3.4rem;
   font-weight: var(--fw-800);
@@ -510,7 +512,7 @@ body {
   #CTA
 \*-----------------------------------*/
 
-.cta { background-color: var(--oxford-blue-1); }
+.cta { background-color: var(--dark-gold); }
 
 .cta-banner { margin-block-end: 50px; }
 
@@ -555,7 +557,7 @@ body {
 .blog-card:is(:hover, :focus-within) .card-banner img { transform: scale(1.1); }
 
 .blog-card .card-badge {
-  background-color: var(--royal-blue-light);
+  background-color: var(--dark-gold);
   color: var(--white);
   position: absolute;
   bottom: 25px;
@@ -590,7 +592,7 @@ body {
   left: 0;
   width: 100%;
   height: 3px;
-  background-color: var(--royal-blue-light);
+  background-color: var(--gold);
   transition: var(--transition);
 }
 
@@ -607,8 +609,8 @@ body {
 \*-----------------------------------*/
 
 .footer-top {
-  background-color: var(--oxford-blue-2);
-  color: var(--light-steel-blue);
+  background-color: var(--dark-gold);
+  color: var(--white);
 }
 
 .footer-top .container {
@@ -658,7 +660,7 @@ body {
 }
 
 .footer-link ion-icon {
-  color: var(--royal-blue-light);
+  color: var(--black);
   --ionicon-stroke-width: 50px;
 }
 
@@ -999,7 +1001,7 @@ body {
   .contact-item { gap: 5px; }
 
   .contact-item ion-icon {
-    color: var(--royal-blue-light);
+    color: var(--gold);
     --ionicon-stroke-width: 40px;
   }
 
